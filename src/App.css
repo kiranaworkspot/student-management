@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #eef2ff;
+  color: #1e293b;
+  padding: 2rem 1rem;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.1);
+}
+
+.header {
+  background: linear-gradient(135deg, #4f46e5, #0284c7);
+  color: #ffffff;
+  padding: 1.75rem 2rem;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  letter-spacing: 0.5px;
+}
+
+.header h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #e0e7ff;
+  margin-top: 0.3rem;
+}
+
+.info-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1.5rem 2rem 0.5rem;
+}
+
+.info-card {
+  background-color: #f0f9ff;
+  border: 1px solid #bae6fd;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.info-label {
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+.info-value {
+  font-weight: 700;
+  color: #0369a1;
+}
+
+.info-card.clock {
+  background-color: #ecfdf5;
+  border-color: #a7f3d0;
+}
+
+.info-card.clock .info-value {
+  color: #047857;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  padding: 1.25rem 2rem 2rem;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.student-table th,
+.student-table td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.student-table th {
+  background-color: #4338ca;
+  color: #ffffff;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.student-table tbody tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+.student-table tbody tr:hover {
+  background-color: #e0e7ff;
+  transition: background-color 0.2s ease;
+}
